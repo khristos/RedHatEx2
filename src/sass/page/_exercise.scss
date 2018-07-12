@@ -1,0 +1,20 @@
+body {
+  background: $color-secondary;
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
+
+
+.grid-layout {
+  display: grid;
+  //grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 150px 350px;
+  grid-gap: 10px;
+  max-width: 555px;
+
+  & > * {
+    margin-bottom: 7px;
+  }
+}

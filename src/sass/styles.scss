@@ -1,0 +1,38 @@
+//
+// Red Hat Exercise
+// Main SCSS file
+//
+
+/*-----------*/
+/*  Config   */
+/*-----------*/
+@import 'config/config';
+
+
+/*-----------*/
+/*  Mixins   */
+/*-----------*/
+@import 'mixins/mixins_general';
+@import 'mixins/mixins_breakpoints';
+@import 'mixins/mixins_grids';
+
+
+/*---------*/
+/*  BASE   */
+/*---------*/
+@import 'base/reset';
+@import 'base/helper_classes';
+@import 'base/typography';
+
+
+/*---------------------------*/
+/*  Page styles              */
+/*    Structure, Component   */
+/*---------------------------*/
+@import 'page/exercise';
+@import 'page/structure/header';
+@import 'page/structure/section';
+@import 'page/component/grid';
+@import 'page/component/card';
+@import 'page/component/badge';
+

@@ -1,0 +1,9 @@
+html, body {
+	background: $color-secondary;
+	color: #000;
+}
+
+body, input, select, textarea, button {
+	font-family: 'Overpass','Open Sans', sans-serif;
+	font-size: 100%;
+}
